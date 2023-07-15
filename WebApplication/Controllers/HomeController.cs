@@ -21,9 +21,15 @@ namespace WebApplication.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Mi contacto.";
+            ViewBag.Message = "Mi contacto c.hemkes1999@gmail.com.";
             return View();
         }
+        public ActionResult Info()
+        {
+            ViewBag.Message = "Ing en Sistemas Computacionales.";
+            return View();
+        }
+        
     }
     
 }
